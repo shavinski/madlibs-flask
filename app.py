@@ -8,3 +8,7 @@ app.config['SECRET_KEY'] = "secret"
 
 debug = DebugToolbarExtension(app)
 
+@app.get("/")
+def get_home():
+    
+    return render_template('questions.html')
