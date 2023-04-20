@@ -37,11 +37,11 @@ class Story:
 
 # Here's a story to get you started
 
-silly_story = Story(
-    ["place", "noun", "verb", "adjective", "plural_noun"],
-    """Once upon a time, in a long-ago {place}, there lived an exceptionally
-       {adjective} {noun}. It loved to {verb} with {plural_noun}."""
-)
+# silly_story = Story(
+#     ["place", "noun", "verb", "adjective", "plural_noun"],
+#     """Once upon a time, in a long-ago {place}, there lived an exceptionally
+#        {adjective} {noun}. It loved to {verb} with {plural_noun}."""
+# )
 
 # Here's another --- you should be able to swap in app.py to use this story,
 # and everything should still work
